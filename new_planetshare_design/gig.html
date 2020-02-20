@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header dash_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li><a href="javascript:;">Dashboard</a></li>
+                        <li><a href="javascript:;">Messages</a></li>
+                        <li><a href="javascript:;">Orders</a></li>
+                        <li><a href="javascript:;">Gigs</a></li>
+                        <li><a href="javascript:;">Analytics</a></li>
+                        <li><a href="javascript:;">Earnings</a></li>
+                        <li><a href="javascript:;">Community</a></li>
+                        <li><a href="javascript:;">More</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="switch_link" href="partner.html" data-toggle="tooltip" title="Find professional services and connect with freelancers. We'll set this as your default mode.">Switch to Buying</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="Javascript:;" data-toggle="dropdown"><span><img src="images/buyer_reg2.jpg" alt="" /></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Dashboard</a>
+                                <a class="dropdown-item" href="javascript:;">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <!-- <div class="sticky_header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <div class="searchbox">
+                <form action="javascript:;">
+                    <div class="inputbox">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search Photos and Videos" />
+                        <button type="submit">Search</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div> -->
+    <!--end header-->
+
+
+    <!-- home banner -->
+    <!-- <section class="home_banner">
+        <div class="owl-carousel" id="home_slider">
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner2.jpg" alt="" />
+                    <div class="caption">
+                        <div class="container">
+                            <p class="desc">Work with verified, exceptional talent, hand-vetted for stellar quality and service.</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner3.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner4.jpg" alt="" />
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner5.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section> -->
+    <!-- end home banner -->
+
+
+    <!--Home content-->
+    <section class="dashb_cont">
+        <div class="container">
+            <div class="db_cont_head">
+                <h2>Gigs</h2>
+                <h3>
+                    Accepting Customer Orders
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </h3>
+            </div>
+            <div class="db_tabs">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#gigactive">Active <span>1</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#pedingapproval">Pending Approval</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#req_modf">Requires Modification</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#draft">Draft</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#denied">Denied</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#paused">Paused</a>
+                    </li>
+                </ul>
+                <div class="buttons">
+                    <a href="create_gig.html" class="btndefault">Create a new gig</a>
+                </div>
+            </div>
+            <div class="db_tab_cont">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="gigactive">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Active Gigs</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr class="accordion">
+                                        <td>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <div class="img">
+                                                <img src="images/seller_icon.jpg" alt="" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="link">
+                                                <a href="gig_preview.html">do best in dubbing services in india as well as abrod</a>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td>0 <i class="fa fa-long-arrow-up blue"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0%</td>
+                                        <td></td>
+                                        <td>
+                                            <div class="dropdown">
+                                              <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                  <a class="dropdown-item" href="javascript:;">Preview</a>
+                                                  <a class="dropdown-item" href="javascript:;">Edit</a>
+                                                  <a class="dropdown-item" href="javascript;;">Share</a>
+                                                  <a class="dropdown-item" href="javascript;;">Pause</a>
+                                                  <a class="dropdown-item" href="javascript;;">Delete</a>
+                                                  <a class="dropdown-item" href="javascript;;">Add Video</a>
+                                                  <a class="dropdown-item" href="javascript;;"><input type="checkbox" /> Live Portfolio</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="rowContent">
+                                        <td colspan="11">
+                                            <div class="gigs_cont">
+                                                <div class="box l">
+                                                    <div class="top_info">
+                                                        <div class="status">
+                                                            <h3>Gig Status</h3>
+                                                            <button class="btndefault" type="button">Active</button>
+                                                        </div>
+                                                        <div class="statusinfo">
+                                                            <h3>Gig Info</h3>
+                                                            <div class="days">
+                                                                <span>2</span>
+                                                                Days average delivery time
+                                                            </div>
+                                                            <div class="days">
+                                                                <span>0</span>
+                                                                Orders in queue
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="limitorder">
+                                                        <h3>
+                                                            Limit orders in queue
+                                                            <label class="switch">
+                                                                <input type="checkbox">
+                                                                <span class="slider round"></span>
+                                                            </label>
+                                                        </h3>
+                                                        <p>Using this feature allows you to control the number of orders you can receive. Once the limit you set is reached, your Gig will temporarily be removed from Fiverr’s search. <br>Disabling this feature returns your Gig to Fiverr’s search (approximately 15 minutes later).</p>
+                                                    </div>
+                                                    <div class="limitorder watermark">
+                                                        <h3>
+                                                            Activate Watermark
+                                                            <label class="switch">
+                                                                <input type="checkbox">
+                                                                <span class="slider round"></span>
+                                                            </label>
+                                                        </h3>
+                                                        <p>Activating this feature automatically adds the Fiverr Watermark to the images in the Order page and to your portfolio on your Gig page.</p>
+                                                        <ol>
+                                                            <li>The watermark will appear on image delivery previews prior to the buyer accepting and completing the order.</li>
+                                                            <li>The watermark will only appear on images from completed orders in your Gig portfolio. It will not appear on images you upload to your portfolio.</li>
+                                                        </ol>
+                                                        <a href="javascript:;" class="learnmore">Learn more</a>
+                                                    </div>
+                                                </div>
+                                                <div class="box r">
+                                                    <h3>Reviews</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <span class="ttl">Communication with seller</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ttl">Service as described</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ttl">Buy again or recommend</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="total">
+                                                            <span class="ttl">Total</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(0)</span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gig_perform">
+                                                    <div class="perf_head">
+                                                        <h3>Gig Performance</h3>
+                                                        <div class="gigviews">
+                                                            <label>Gig Views in the last 30 days</label>
+                                                            <select>
+                                                                <option>Impressions</option>
+                                                                <option>Clicks</option>
+                                                                <option selected>Gig Views</option>
+                                                                <option>Social Gig Views</option>
+                                                                <option>Orders</option>
+                                                                <option>Conversion Rate</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="graph">
+                                                        <p class="nodata">No data available for this graph type.</p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="accordion">
+                                        <td>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <div class="img">
+                                                <img src="images/seller_icon.jpg" alt="" />
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="link">
+                                                <a href="javascript:;">do best in dubbing services in india as well as abrod</a>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td>0 <i class="fa fa-long-arrow-up blue"></i></td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td>0%</td>
+                                        <td></td>
+                                        <td>
+                                            <div class="dropdown">
+                                              <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-angle-down" aria-hidden="true"></i></button>
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                  <a class="dropdown-item" href="javascript:;">Preview</a>
+                                                  <a class="dropdown-item" href="javascript:;">Edit</a>
+                                                  <a class="dropdown-item" href="javascript;;">Share</a>
+                                                  <a class="dropdown-item" href="javascript;;">Pause</a>
+                                                  <a class="dropdown-item" href="javascript;;">Delete</a>
+                                                  <a class="dropdown-item" href="javascript;;">Add Video</a>
+                                                  <a class="dropdown-item" href="javascript;;"><input type="checkbox" /> Live Portfolio</a>
+                                              </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr class="rowContent">
+                                        <td colspan="11">
+                                            <div class="gigs_cont">
+                                                <div class="box l">
+                                                    <div class="top_info">
+                                                        <div class="status">
+                                                            <h3>Gig Status</h3>
+                                                            <button class="btndefault" type="button">Active</button>
+                                                        </div>
+                                                        <div class="statusinfo">
+                                                            <h3>Gig Info</h3>
+                                                            <div class="days">
+                                                                <span>3</span>
+                                                                Days average delivery time
+                                                            </div>
+                                                            <div class="days">
+                                                                <span>0</span>
+                                                                Orders in queue
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="limitorder">
+                                                        <h3>
+                                                            Limit orders in queue
+                                                            <label class="switch">
+                                                                <input type="checkbox">
+                                                                <span class="slider round"></span>
+                                                            </label>
+                                                        </h3>
+                                                        <p>Using this feature allows you to control the number of orders you can receive. Once the limit you set is reached, your Gig will temporarily be removed from Fiverr’s search. <br>Disabling this feature returns your Gig to Fiverr’s search (approximately 15 minutes later).</p>
+                                                    </div>
+                                                    <div class="limitorder watermark">
+                                                        <h3>
+                                                            Activate Watermark
+                                                            <label class="switch">
+                                                                <input type="checkbox">
+                                                                <span class="slider round"></span>
+                                                            </label>
+                                                        </h3>
+                                                        <p>Activating this feature automatically adds the Fiverr Watermark to the images in the Order page and to your portfolio on your Gig page.</p>
+                                                        <ol>
+                                                            <li>The watermark will appear on image delivery previews prior to the buyer accepting and completing the order.</li>
+                                                            <li>The watermark will only appear on images from completed orders in your Gig portfolio. It will not appear on images you upload to your portfolio.</li>
+                                                        </ol>
+                                                        <a href="javascript:;" class="learnmore">Learn more</a>
+                                                    </div>
+                                                </div>
+                                                <div class="box r">
+                                                    <h3>Reviews</h3>
+                                                    <ul>
+                                                        <li>
+                                                            <span class="ttl">Communication with seller</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ttl">Service as described</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li>
+                                                            <span class="ttl">Buy again or recommend</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(N/A)</span>
+                                                            </span>
+                                                        </li>
+                                                        <li class="total">
+                                                            <span class="ttl">Total</span>
+                                                            <span class="rating">
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                                                <span class="reviews">(0)</span>
+                                                            </span>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="gig_perform">
+                                                    <div class="perf_head">
+                                                        <h3>Gig Performance</h3>
+                                                        <div class="gigviews">
+                                                            <label>Gig Views in the last 30 days</label>
+                                                            <select>
+                                                                <option>Impressions</option>
+                                                                <option>Clicks</option>
+                                                                <option selected>Gig Views</option>
+                                                                <option>Social Gig Views</option>
+                                                                <option>Orders</option>
+                                                                <option>Conversion Rate</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="graph">
+                                                        <p class="nodata">No data available for this graph type.</p>
+                                                    </div>
+                                                    <div class="clearfix"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pedingapproval">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Gigs Pending Approval</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11">
+                                            <p class="nodata">No pending gigs to show.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="req_modf">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Gigs that Require Modifications</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11">
+                                            <p class="nodata">No pending gigs to show.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="draft">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Draft Gigs</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11">
+                                            <p class="nodata">No pending gigs to show.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="denied">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Denied Gigs</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11">
+                                            <p class="nodata">No pending gigs to show.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="paused">
+                        <div class="table-responsive">
+                            <table class="table table-hover gigactive">
+                                <thead>
+                                    <tr>
+                                        <th colspan="5"><span class="title">Paused Gigs</span></th>
+                                        <th colspan="6">
+                                            <select>
+                                                <option selected>Last 30 Days</option>
+                                                <option>Last 7 Days</option>
+                                                <option>Last Month</option>
+                                            </select>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th>
+                                            <label class="checkbox_fake">
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                            </label>
+                                        </th>
+                                        <th colspan="3">Gig</th>
+                                        <th><span data-toggle="tooltip" title="Total number of impressions this Gig received on Fiverr in the last 30 days">Impressions</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of clicks this Gig received in the last 30 days">Clicks</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of page views this Gig received in the last 30 days">Views</span></th>
+                                        <th><span data-toggle="tooltip" title="Total number of orders from this Gig in the last 30 days">Orders</span></th>
+                                        <th><span data-toggle="tooltip" title="Cancellation rate: Number of cancelled orders divided by the number of orders from this Gig in the last 30 days">Cancellations</span></th>
+                                        <th colspan="2"></th>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="11">
+                                            <p class="nodata">No pending gigs to show.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--end home content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Overview</a></li>
+                                <li><a href="javascript:;">Leadership</a></li>
+                                <li><a href="javascript:;">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                                <li><a href="javascript:;">Investor Room</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Help & Support</a></li>
+                                <li><a href="javascript:;">Trust & Safety</a></li>
+                                <li><a href="javascript:;">Selling on Planetshare</a></li>
+                                <li><a href="javascript:;">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="   https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+</body>
+
+</html>

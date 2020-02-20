@@ -1,0 +1,1883 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/viewer.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/viewer.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <!--Search Bar-->
+                <div class="searchbox">
+                    <form action="javascript:;">
+                        <div class="inputbox">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search Photos and Videos" />
+                            <button type="submit">Search</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+                <!--end search bar-->
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li>
+                            <a href="partner.html">Partner with us</a>
+                        </li>
+                        <li>
+                            <a href="vendor_detail.html">Sell on Planetshare</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown user_infodet">
+                            <a class="icon_user_login" href="Javascript:;"><span><i class="fa fa-user-circle" aria-hidden="true"></i></span></a>
+                            <div class="overlay"></div>
+                            <div class="user_infobox">
+                                <span class="closebtn">&#10005;</span>
+                                <div class="user_name">
+                                    <h3>Hi, rohitkumar1992</h3>
+                                    <span>User ID: 192839495</span>
+                                    <a href="edit_profile.html" class="prof_edit_icon"><i class="fa fa-pencil"></i></a>
+                                </div>
+                                <div class="browse_plan">
+                                    <h3>Browse plans and pricing</h3>
+                                    <ul class="browse_list">
+                                        <li><a href="pricing.html">Images</a></li>
+                                        <li><a href="pricing.html">Music</a></li>
+                                        <li><a href="pricing.html">Videos</a></li>
+                                        <li><a href="pricing.html">Editorial</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <ul class="link_list">
+                                        <li><a href="javascript:;"><i class="fa fa-university" aria-hidden="true"></i> Account Details</a></li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#features_list"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Collections</a>
+                                            <ul class="features_list" id="features_list" style="display:none;">
+                                                <li><a href="collection.html">Image Collection</a></li>
+                                                <li><a href="collection.html">Video Collection</a></li>
+                                                <li><a href="collection.html">Music Collection</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#down_list"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
+                                            <ul class="features_list" id="down_list" style="display:none;">
+                                                <li><a href="downloads.html">Image Download</a></li>
+                                                <li><a href="downloads.html">Video Download</a></li>
+                                                <li><a href="downloads.html">Music Download</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="login.html" class="btn btn_join">Join</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="header_bot">
+            <div class="header_row">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">X</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Javascript:;" data-toggle="dropdown">Transcoding</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:;">Logo Design <span class="fit-tag">new</span></a>
+                                    <a class="dropdown-item" href="javascript:;">Business Cards & Stationery</a>
+                                    <a class="dropdown-item" href="javascript:;">Illustration</a>
+                                    <a class="dropdown-item" href="javascript:;">Brochure Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Poster Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Flyer Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Cartoons & Comics</a>
+                                    <a class="dropdown-item" href="javascript:;">Portraits & Caricatures</a>
+                                    <a class="dropdown-item" href="javascript:;">Packaging Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Infographic Design</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Dubbing</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Auto Tagging</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Subtitling & Caption</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Streaming</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Archiving</a>
+                            </li> 
+                        </ul>
+                    </div> 
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="sticky_header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <!--Search Bar-->
+            <div class="searchbox">
+                <form action="javascript:;">
+                    <div class="inputbox">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search Photos and Videos" />
+                        <button type="submit">Search</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+                <div class="clearfix"></div>
+            </div>
+            <!--end search bar-->
+        </div>
+    </div>
+    <!--end header-->
+
+
+    <!-- home banner -->
+    <section class="home_banner">
+        <div class="owl-carousel" id="home_slider">
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner2.jpg" alt="" />
+                    <div class="caption">
+                        <div class="container">
+                            <p class="desc">Work with verified, exceptional talent, hand-vetted for stellar quality and service.</p>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="box">
+                    <img src="images/home_banner6.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- end home banner -->
+
+
+    <!--learnmore_bar-->
+    <section class="learn_bar">
+        <div class="container">
+            <div class="l_more">
+                <p>Does your business or agency need fresh content and lots of it? <span>planetshare can help.</span></p>
+                <a href="javascript:;" class="btndefault">Learn more</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--endlearnmore_bar-->
+
+
+    <!--under_price-->
+    <section class="under_price">
+        <ul class="u_p_box">
+           <li>
+               <div class="value">Under</div>
+               <div class="prc"><i class="fa fa-inr"></i>299</div>
+               <div class="button">
+                    <a href="javascript:"><i class="fa fa-angle-right"></i></a>
+                </div>
+           </li>
+           <li>
+               <div class="value">Under</div>
+               <div class="prc"><i class="fa fa-inr"></i>499</div>
+               <div class="button">
+                    <a href="javascript:"><i class="fa fa-angle-right"></i></a>
+                </div>
+           </li>
+           <li>
+               <div class="value">Under</div>
+               <div class="prc"><i class="fa fa-inr"></i>599</div>
+               <div class="button">
+                    <a href="javascript:"><i class="fa fa-angle-right"></i></a>
+                </div>
+           </li>
+           <li>
+               <div class="value">Under</div>
+               <div class="prc"><i class="fa fa-inr"></i>699</div>
+               <div class="button">
+                    <a href="javascript:"><i class="fa fa-angle-right"></i></a>
+                </div>
+           </li> 
+        </ul>
+        <div class="clearfix"></div>
+    </section>
+    <!--end under_price-->
+
+
+    <!--Home content-->
+    <section class="inner_cont">
+        <div class="container">
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Dubbing Services</h2>
+                    <a href="listing.html" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="product_detail.html">
+                                        <img src="images/dubbing1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="product_detail.html"><img src="images/seller_icon.jpg" alt="" /> sameerarif123</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="product_detail.html">I will record any female voice over in german or english</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.5</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="product_detail.html"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>6,340</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/dubbing2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> isabelfp</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will record a male voice over and dubbing in hebrew</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>5,450</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/dubbing3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> lishkafe</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will do a female voice over for your project</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.2</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>6,350</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/dubbing4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> andreeabotoman</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will record a professional british voice over or narration</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">2.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>2,150</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/dubbing5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anatomyoflogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will record you children book in hebrew</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.7</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>3,050</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Writing & Translation Services</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/writing1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anatomyoflogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write compelling marketing content</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.3</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>11,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/writing2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> strongestate</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write a professional blog or article</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.2</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>12,040</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/writing3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> tme2012</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write travel and leisure content</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>5,010</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/writing4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> grammam</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write research backed, on brand content for your site</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.4</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>6,250</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/writing5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> morena2003</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write a buzzfeed style listicle blog</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.9</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>3,450</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="home_ser_wrap">
+                <aside class="ser_gal_head">
+                    <h2>Get Top Planetshare Services</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="ser_list_box docs-pictures">
+                    <div class="row">
+                        <div class="col col-sm-6 col-md-4">
+                            <a href="javascript:;" class="box">
+                                <div class="img">
+                                    <img src="images/top_service1.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <p>Transcoding</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-sm-6 col-md-4">
+                            <a href="javascript:;" class="box">
+                                <div class="img">
+                                    <img src="images/top_service2.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <p>Streaming</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col col-sm-6 col-md-4">
+                            <a href="javascript:;" class="box">
+                                <div class="img">
+                                    <img src="images/top_service3.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <p>Archiving</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="home_offer">
+                <aside class="offer_banner">
+                    <img src="images/offer_banner.jpg" alt="" />
+                    <div class="caption">
+                        <div class="icon">
+                            <img src="images/logo1.png" alt="" />
+                        </div>
+                        <p class="desc">Be inspired to achieve more, and faster with top-quality work delivered by our Pros.</p>
+                        <a href="javascript:;" class="more">See #MadeOnPro Curated Works<i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="findplan">
+                <h3>
+                    <span>Stunning content, straightforward prices</span>
+                </h3>
+                <div class="buttons">
+                    <a class="btndefault" href="javascript:;">Find your plan</a>
+                </div>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap vdo_cat">
+                <aside class="cat_gal_head">
+                    <h2>Video Cateogories</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="vd_cat_list">
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service2.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Business</h3>
+                                    <p>57 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service1.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Fashion</h3>
+                                    <p>39 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service3.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Holiday</h3>
+                                    <p>60 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service2.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Science</h3>
+                                    <p>19 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service3.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Sports</h3>
+                                    <p>22 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a class="box" href="javascript:;">
+                                <div class="img">
+                                    <img src="images/top_service1.jpg" alt="" />
+                                </div>
+                                <div class="desc">
+                                    <h3>Wildlife</h3>
+                                    <p>10 Videos</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap ver_cat">
+                <aside class="cat_gal_head">
+                    <h2>Video Under 1500</h2>
+                    <a href="filter_listing.html" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <div class="ver_cat_list">
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood1.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood2.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood3.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood4.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood5.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood6.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood1.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a class="box" href="javascript:;">
+                            <div class="img">
+                                <img class="load_place_vert" src="images/hollywood2.jpg" alt="">
+                            </div>
+                            <div class="desc">
+                                <span class="title">Black Cobra</span>
+                                <div class="det">Sizwe Biko, an ordinary man with extraordinary skills as a martial artist. He wants nothing more tha</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </article>
+
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Video Under 1500</h2>
+                    <a href="filter_listing.html" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="payment.html">
+                                        <img src="images/video_ser1.jpg" alt="" />
+                                        <div class="play_icon"><button class="play"></button></div>
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="payment.html"><img src="images/seller_icon.jpg" alt="" /> anatomyoflogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="payment.html">I will create a video ad for your company</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">5.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="payment.html"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>1,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/video_ser2.jpg" alt="" />
+                                        <div class="play_icon"><button class="play"></button></div>
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> eitansouroujon</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create a professional, compelling instagram video</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">2.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>1,350</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/video_ser3.jpg" alt="" />
+                                        <div class="play_icon"><button class="play"></button></div>
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> leeoz1</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will animate your facebook cover</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.5</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>2,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/video_ser4.jpg" alt="" />
+                                        <div class="play_icon"><button class="play"></button></div>
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> keithlapinski</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will produce a campaign video to get you elected</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>3,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/video_ser5.jpg" alt="" />
+                                        <div class="play_icon"><button class="play"></button></div>
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> luminous123</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create a cinematic and professional ad for you</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>4,050</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Today's Deal</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/edev_ser1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anawergos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will deliver sleek product advertising video</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>6,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/edev_ser2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> ggret445665</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create a social media video for your brand</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">2.9</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>550</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/edev_ser3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anaogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will produce a short commercial video</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.3</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>7,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/edev_ser4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> an555ogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create your fashion runway video</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">2.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>3,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/edev_ser5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anat55556gos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create a trailer for you</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">5.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>5,050</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="home_offer">
+                <aside class="offer_banner">
+                    <img src="images/offer_banner2.jpg" alt="" />
+                    <div class="caption">
+                        <div class="icon">
+                            <img src="images/logo1.png" alt="" />
+                        </div>
+                        <p class="desc">Planetshare Customer Experience Team</p>
+                        <p class="txt">Planetshare Customers get premium support with faster responses. We’ll get back to you within two hours.</p>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Images Under 500</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/recommend_ser1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> sunidk333</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design a logo for your brand identity</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>4,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/recommend_ser2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> 555kfjfirik</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design creative advisor poster</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.0</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>2,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/recommend_ser3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anatomyo</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design Your movie poster</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.4</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>2,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/recommend_ser4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> anatommmmggos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design your advertising banner</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.8</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>11,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/recommend_ser5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> logos4532</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design web designs images</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.7</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>8,050</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="cat_gal_wrap">
+                <aside class="cat_gal_head">
+                    <h2>Recommentations For You</h2>
+                    <a href="javascript:;" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+                <aside class="cat_list_box">
+                    <div class="cat_gal">
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/weekly_ser1.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> sulekdinf333</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will create an analytics report with recommendations</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.2</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>5,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/weekly_ser2.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> aur7h5h5gos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design roller banner or standee</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.3</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>3,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/weekly_ser3.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> angkieyoflogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will write an on point case study</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.5</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>650</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/weekly_ser4.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> a556glogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design your promotional poster</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">3.6</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>2,050</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cat_item">
+                            <div class="box">
+                                <div class="img">
+                                    <a href="javascript:;">
+                                        <img src="images/weekly_ser5.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="sell_info">
+                                    <a href="javascript:;"><img src="images/seller_icon.jpg" alt="" /> adfgmdfkogos</a>
+                                </div>
+                                <div class="desc">
+                                    <a href="javascript:;">I will design icons for web and mobile</a>
+                                </div>
+                                <div class="review">
+                                    <div class="rating">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <span class="rating_val">4.2</span>
+                                        <span class="rat_count">(1)</span>
+                                    </div>
+                                    <div class="verify" data-hint="This Gig is offered by unrivaled talent verified by Fiverr for quality and service.">
+                                        <img src="images/seller_logo.svg" alt="" />
+                                    </div>
+                                </div>
+                                <div class="price_info">
+                                    <a class="wish" href="javascript:;" data-hint="Add to Saved"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                                    <a class="price" href="javascript:;"><small>Starting at</small> <i class="fa fa-inr" aria-hidden="true"></i>7,050</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+
+            <article class="quotation_wrap">
+                <aside class="quotation_head">
+                    <h2>Request For Quatation <span>Customization Service</span></h2>
+                </aside>
+                <aside class="quotation_box">
+                    <div class="row">
+                        <div class="col col-lg-6">
+                            <div class="box l">
+                                <a href="javascript:;">
+                                    <img src="images/quote_img.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col col-lg-6">
+                            <div class="box">
+                                <form action="javascript:;">
+                                    <h3 class="ttl">One Request, <br>Multiple Quotes</h3>
+                                    <div class="inputbox">
+                                        <input type="text" placeholder="What are you looking for..." />
+                                    </div>
+                                    <div class="inputbox l">
+                                        <input type="text" placeholder="Quantity" />
+                                        <select>
+                                            <option>select</option>
+                                            <option>Video</option>
+                                            <option>Photo</option>
+                                        </select>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="inputbox">
+                                        <label>Select template type:</label>
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-default">Request price</button>
+                                            <button type="button" class="btn btn-default">Request a sample</button>
+                                            <button type="button" class="btn btn-default">Request quotation details</button>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-submit">Request For Quotation</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </aside>
+                <div class="clearfix"></div>
+            </article>
+        </div>
+
+        <div class="bidding_box">
+            <div class="container">
+                <aside class="cat_gal_head">
+                    <h2>Bidding</h2>
+                    <a href="listing.html" class="viewall">View All <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                </aside>
+            </div>
+            <div class="bid_list_item">
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img1.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img2.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Drama, Romance</p>
+                                </div>
+                                <div class="det">
+                                    <h3>The Hows Of Us</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>Young couple Primo and George are in a long-term relationship and are already building and planning their future together. Meeting at a debate contest, the two eventually fell in love and decided to move into the house George inherited from her aunt. As the two work on their dreams, things get more complicated than what they expected it to be. George, who is studying to become a doctor, always adore Primo’s dedication in making his band internationally famous someday. However, as Primo struggles to get the big break, George becomes the breadwinner and juggles different odd jobs to keep them both afloat. Their love will be put to the test as their relationship faces hurdles - from misunderstandings to different career paths, among others. How will they save their "us"?</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img3.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Goblin: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A top rated Korean drama serial starring Gong Yoo, the lead actor from the highly successful zombie blockbuster TRAIN TO BUSAN. Shin (Gong Yoo) is a goblin and protector of souls. He is the landlord of the grim reaper (Lee Dong-wook), who is in charge of taking deceased souls. Wanting to end his immortal life, Shin has been looking for his human bride, the only person who can end his life. Meanwhile, Ji Eun-tak (Kim Go-eun) is a high school student who remains optimistic despite the tragedies and difficulties she has experienced in her life. She summons the goblin by chance, and through various encounters, ends up falling in love with him. Sunny (Yoo In-na) is a chicken restaurant owner, whose beauty is undeniable. These four characters' lives take a series of twists and turns when they intertwine.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img4.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img5.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img6.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img7.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img8.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img9.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img10.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img11.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="img_box">
+                        <a href="javascript:">
+                            <img src="images/bidding_img12.jpg" alt="" />
+                            <div class="desc">
+                                <div class="tag">
+                                    <p>Animation Children's</p>
+                                </div>
+                                <div class="det">
+                                    <h3>Cam & Leon: Season 1</h3>
+                                    <div class="eps">
+                                        <p>13 Episodes &nbsp;|&nbsp; 0hr30m</p>
+                                    </div>
+                                    <div class="txt">
+                                        <p>A non-dialogue slapstick comedy revolving around two curious, bungling chameleons who live in an urban park, far away from their natural habitat. They are on a quest to find food but are always challenged by random objects and situations. Armed with their unique chameleon abilities, they turn every encounter and situation into  a zany and hilarious adventure. In each episode, Cam & Leon will be presented with random objects or situations. The objects featured are everyday kid-friendly objects, common and universal to children from all around the world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--end home content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="aboutus.html#overview">Overview</a></li>
+                                <li><a href="aboutus.html#leadership">Leadership</a></li>
+                                <li><a href="aboutus.html#awards">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="selling_on_planetshare.html">Selling on Planetshare</a></li>
+                                <li><a href="buying_on_planetshare.html">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="terms_services.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+</body>
+
+</html>

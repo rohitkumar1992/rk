@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header dash_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li><a href="javascript:;">Dashboard</a></li>
+                        <li><a href="javascript:;">Messages</a></li>
+                        <li><a href="javascript:;">Orders</a></li>
+                        <li><a href="javascript:;">Gigs</a></li>
+                        <li><a href="javascript:;">Analytics</a></li>
+                        <li><a href="javascript:;">Earnings</a></li>
+                        <li><a href="javascript:;">Community</a></li>
+                        <li><a href="javascript:;">More</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="switch_link" href="partner.html" data-toggle="tooltip" title="Find professional services and connect with freelancers. We'll set this as your default mode.">Switch to Buying</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="Javascript:;" data-toggle="dropdown"><span><img src="images/buyer_reg2.jpg" alt="" /></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Dashboard</a>
+                                <a class="dropdown-item" href="javascript:;">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+
+    <!--bid preview content-->
+    <section class="view_detail setrights">
+        <article class="view_page">
+            <div class="container">
+                <div class="main_cont">
+                    <div class="box">
+                        <form class="bid_form">
+                            <h3>Rights Package</h3>
+                            <div class="l_period">
+                                <div class="field">
+                                    <label><b>Licence Period</b></label>
+                                    <div class="inputbox">
+                                        <select>
+                                            <option>Indefinitely</option>
+                                            <option>Fixed Term</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label>Start date</label>
+                                    <div class="inputbox">
+                                        <input type="text" />
+                                    </div>
+                                </div>
+                                <div class="field">
+                                    <label>End date</label>
+                                    <div class="inputbox">
+                                        <input type="text" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="l_period sold_r">
+                                <div class="field">
+                                    <label><b>Sold Rights</b></label>
+                                    <div class="inputbox">
+                                        <select>
+                                            <option>All rights</option>
+                                            <option>Limited</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field ex">
+                                    <label>
+                                        <input type="checkbox" name="exclusive" />
+                                        <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                    </label>
+                                </div>
+                                <div class="field ex">
+                                    <label>
+                                        <input type="checkbox" name="exclusive" />
+                                        <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Format</th>
+                                            <th colspan="2">Rights</th>
+                                            <th>Holdback</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Free to Air</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="hold">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                    <div class="selectbox">
+                                                        <select>
+                                                            <option>select</option>
+                                                            <option>1 month</option>
+                                                            <option>3 month</option>
+                                                            <option>6 month</option>
+                                                            <option>9 month</option>
+                                                            <option>12 month</option>
+                                                        </select>
+                                                    </div>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pay TV</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="hold">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                    <div class="selectbox">
+                                                        <select>
+                                                            <option>select</option>
+                                                            <option>1 month</option>
+                                                            <option>3 month</option>
+                                                            <option>6 month</option>
+                                                            <option>9 month</option>
+                                                            <option>12 month</option>
+                                                        </select>
+                                                    </div>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>S-VOD</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="hold">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                    <div class="selectbox">
+                                                        <select>
+                                                            <option>select</option>
+                                                            <option>1 month</option>
+                                                            <option>3 month</option>
+                                                            <option>6 month</option>
+                                                            <option>9 month</option>
+                                                            <option>12 month</option>
+                                                        </select>
+                                                    </div>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>A-VOD</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="hold">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                    <div class="selectbox">
+                                                        <select>
+                                                            <option>select</option>
+                                                            <option>1 month</option>
+                                                            <option>3 month</option>
+                                                            <option>6 month</option>
+                                                            <option>9 month</option>
+                                                            <option>12 month</option>
+                                                        </select>
+                                                    </div>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Transport</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Non Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="hold">
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                    <div class="selectbox">
+                                                        <select>
+                                                            <option>select</option>
+                                                            <option>1 month</option>
+                                                            <option>3 month</option>
+                                                            <option>6 month</option>
+                                                            <option>9 month</option>
+                                                            <option>12 month</option>
+                                                        </select>
+                                                    </div>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="buttons">
+                                <button type="submit" class="btndefault">Continue</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+                <aside class="sidebar_view sticky-top">
+                    <div class="bid_preview">
+                        <div class="main_cont">
+                            <div class="box">
+                                <div class="overview" id="overview">
+                                    <div class="desc makeoffr" id="make_offer">
+                                        <div class="lang">
+                                            <label>Offer Price:</label> 
+                                            <p><i class="fa fa-inr" aria-hidden="true"></i>3000</p>
+                                        </div>                    
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <h2>The Turning Point</h2>
+                                    <div class="user_overview">
+                                        <div class="user_img">
+                                            <div class="name">
+                                                <p>
+                                                    <span>Movie</span> | <span>0hr30m</span> | <span>4K</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="user_rating">
+                                            <div class="star">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                            <div class="ttl_rat">5.0</div>
+                                        </div>
+                                    </div>
+                                    <div class="video_area">
+                                        <div class="img">
+                                            <img src="images/bidding_img1.jpg" />
+                                        </div>
+                                        <video controls>
+                                          <source src="images/video/transcoding.mp4" type="video/mp4" />
+                                        </video>
+                                    </div>
+                                </div>
+                                <div class="desc" id="description">
+                                    <h3>About This Bid</h3>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                                    <div class="lang">
+                                        <label>Department:</label>
+                                        <p>Planetcast Media - General</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Languages:</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Dubbing Languages:</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Subtitle Languages:</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>   
+                                    <div class="lang">
+                                        <label>Genre(s):</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>   
+                                    <div class="lang">
+                                        <label>Keywords:</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>                    
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="prof_card" id="prod_detail">
+                                    <h3>Production Details</h3>
+                                    <div class="stats_desc">
+                                        <ul class="user_stats">
+                                            <li>Production Studios: <strong>Israel</strong></li>
+                                            <li>Year of Release: <strong>July 2016</strong></li>
+                                            <li>Country(ies) of origin: <strong>India</strong></li>
+                                        </ul>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="desc" id="cast_crew">
+                                    <h3>Cast & Crew</h3>
+                                    <div class="lang">
+                                        <label>Cast members:</label>
+                                        <p>Planetcast Media - General</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Producer(s):</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Director(s):</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>  
+                                    <div class="lang">
+                                        <label>Writer(s) :</label>
+                                        <p>Albanian, Arabic, Bengali, Bulgarian, Czech</p>
+                                    </div>                     
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </section>
+    <!--bid gig preview-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Overview</a></li>
+                                <li><a href="javascript:;">Leadership</a></li>
+                                <li><a href="javascript:;">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                                <li><a href="javascript:;">Investor Room</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Help & Support</a></li>
+                                <li><a href="javascript:;">Trust & Safety</a></li>
+                                <li><a href="javascript:;">Selling on Planetshare</a></li>
+                                <li><a href="javascript:;">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="   https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+
+    <script>
+        $(document).ready(function() {
+            $(".bid_form table tbody td > label.hold").click(function() {
+                $(this).toggleClass("active");
+            });
+            $('input[type="checkbox"]').on('change', function() {
+                $('input[name="' + this.name + '"]').not(this).prop('checked', false);
+            });
+        });
+    </script>
+</body>
+
+</html>

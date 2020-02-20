@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header">
+        <div class="header-top">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                    </div>
+                </div>
+                <div class="col-md-10">
+                    <nav class="navbar navbar-expand-md">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                            <span class="navbar-toggler-icon">X</span>
+                        </button>
+                        <div class="mobile_bg"></div>
+                        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                            <span class="close_icon" style="display: none;">X</span>
+                            <ul class="navbar-nav f">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="Javascript:;" data-toggle="dropdown">Images</a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="javascript:;">Photos</a>
+                                        <a class="dropdown-item" href="javascript:;">Vendor</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:;">Footage</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:;">Services</a>
+                                </li> 
+                            </ul>
+                            <ul class="navbar-nav float-right">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:;">Seller</a>
+                                </li> 
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:;">Vendor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn" data-toggle="modal" data-target="#login" href="javascript:;">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link btn" href="javascript:;">Sign Up</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:;"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--end header-->
+
+
+    <!--Search Bar-->
+    <div class="searchbox">
+        <form action="javascript:;">
+            <div class="inputbox">
+                <input type="text" placeholder="Search Photos and Videos" />
+                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </div>
+            <div class="selectbox">
+                <div class="cat_links">
+                    <a href="javascript:;" data-toggle="collapse" data-target="#cat_links" class="" aria-expanded="true"><i class="fa fa-list-ul" aria-hidden="true"></i> Categories</a>
+                    <div id="cat_links" class="collapse" style="">
+                        <h4>Browse Categories</h4>
+                        <ul>
+                            <li>
+                                <a href="javascript:;">Technology</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">People</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Slow Motion</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Language</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Business</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">Nature</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </form>
+        <div class="clearfix"></div>
+    </div>
+    <!--end search bar-->
+
+
+    <!--caterory area-->
+    <section class="category_page">
+        <div class="filter_area">
+            <div class="filter_btn">
+                <h2><i class="fa fa-exchange" aria-hidden="true"></i> Filters</h2>
+                <div class="btntoggle"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div  class="side_filter">
+            <form action="javascript:;" id="filter_form" class="filter_form">
+                <h3>
+                    Planetshare Select 
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </h3>
+                <p>Only show our selection of premium quality clips</p>
+
+                <div id="accordion">
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#sortby">
+                                Sort By
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="sortby" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Populer</button>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Fresh Content</button>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Best Match</button>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Random</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#maxresolution">
+                                Maximum Resolution
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="maxresolution" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">4K</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">HD</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">SD</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#fps">
+                                FPS
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="fps" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">23.98</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">24</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">25</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">23.98</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">24</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">25</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">23.98</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">24</button>
+                                    </div>
+                                    <div class="col col-sm-4">
+                                        <button type="button" class="btn btn-success">Other</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#duration">
+                                Duration
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="duration" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-12">
+                                        <p class="dur">
+                                            <input type="text" />
+                                            <span>to</span>
+                                            <input type="text" />
+                                            <span>seconds</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#people">
+                                People
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="people" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">With people</button>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Without people</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#category_filter">
+                                Category
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="category_filter" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-12">
+                                        <div class="selectbox">
+                                            <label>Select a category</label>
+                                            <select>
+                                                <option>Select Category</option>
+                                                <option>Animal/Wildlife</option>
+                                                <option>Animal/Wildlife</option>
+                                                <option>Animal/Wildlife</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#contributor">
+                                Contributor
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="contributor" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-12">
+                                        <div class="inputbox">
+                                            <input type="text" />
+                                            <label>Name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#usage">
+                                Usage
+                                <i class="fa fa-angle-up" aria-hidden="true"></i>
+                            </a>
+                        </h3>
+                        <div id="usage" class="collapse show">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Only editorial</button>
+                                    </div>
+                                    <div class="col col-sm-6">
+                                        <button type="button" class="btn btn-success">Non editorial</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="clearfix"></div>
+            </form>
+            <div class="clearfix"></div>
+        </div>
+        <div class="cat_content_area">
+            <div class="top_info">
+                <h2>Technology royalty-free stock images</h2>
+                <p>
+                    17,32,240 technology royalty-free stock videos <a href="javascript:;">See technology stock images</a>
+                </p>
+                <div class="pagination_page">
+                    <ul>
+                        <li class="prv">
+                            <a href="javascript"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <input type="text" value="1" alt="" />
+                        </li>
+                        <li class="nxt">
+                            <a href="javascript"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <span>of 1700</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="cat_btn_list">
+                <a href="javascript:;" class="btn btn_catlist">business</a>
+                <a href="javascript:;" class="btn btn_catlist">fashion</a>
+                <a href="javascript:;" class="btn btn_catlist">healthcare</a>
+                <a href="javascript:;" class="btn btn_catlist">wildlife</a>
+                <a href="javascript:;" class="btn btn_catlist">beauty</a>
+                <a href="javascript:;" class="btn btn_catlist">education</a>
+                <a href="javascript:;" class="btn btn_catlist">food & drink</a>
+                <a href="javascript:;" class="btn btn_catlist">holidays</a>
+                <a href="javascript:;" class="btn btn_catlist">sports</a>
+                <a href="javascript:;" class="btn btn_catlist">finance</a>
+                <a href="javascript:;" class="btn btn_catlist">animals</a>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="cat_i_v_list">
+                <div class="row">
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery1.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery2.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery3.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery1.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery1.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery2.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery3.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-3 col-sm-4">
+                        <div class="box">
+                            <img src="images/gallery1.jpg" alt="" />
+                            <div class="ov"></div>
+                            <div class="q_t">
+                                <span class="ql">4K</span>
+                                <span class="tm">00:11</span>
+                                <span class="ttle">In recover recover technology recover</span>
+                            </div>
+                            <div class="sv_crt">
+                                <button type="button" class="crt">
+                                    <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                    <span>Add to cart</span>
+                                </button>
+                                <button type="button" class="sv">
+                                    <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                    <span>Save</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="top_info">
+                <div class="buttons">
+                    <button type="button" class="btn btn-success">Next</button>
+                </div>
+                <div class="pagination_page">
+                    <ul>
+                        <li class="prv">
+                            <a href="javascript"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <input type="text" value="1" alt="" />
+                        </li>
+                        <li class="nxt">
+                            <a href="javascript"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                    <span>of 1700</span>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--end category area-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="box">
+                        <div class="f_nav">
+                            <ul>
+                                <li>
+                                    <a href="javascript:;">About Planetshare</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Terms of Use</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Privacy Policy(New)</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">Contact Us</a>
+                                </li>
+                            </ul>
+                            <p>© 2019 Copyright @ Planetshare all Right Reserved. Media Solutions from Planetshare make it easy for you to get customised services on your videos. Get services for your own videos or top up your purchased media files with tailor-made services to suit your project. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="box r">
+                        <div class="social">
+                            <h4>Connect With Us</h4>
+                            <ul class="s_list">
+                                <li>
+                                    <a href="javascript:;"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>  
+                        </div>  
+                        <div class="p_apps">
+                            <h4>Planetshare apps</h4>
+                            <ul>
+                                <li>
+                                    <a href="javascript:;" class="btn btn_gp"></a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;" class="btn btn_ap"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end footer-->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".filter_btn").click(function() {
+                $(this).toggleClass("filter_on");
+                $(".category_page").toggleClass("fullwidth");
+                $(".side_filter").toggleClass("open_filter");
+            });
+        });
+        $(function(){
+            $(".cat_i_v_list .col .box .q_t span.ttle").text(function(index, currentText) {
+                return currentText.substr(0, 20) + '...';
+            });
+        });
+    </script>
+</body>
+
+</html>

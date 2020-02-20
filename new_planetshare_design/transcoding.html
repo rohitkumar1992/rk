@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/viewer.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/viewer.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <!--Search Bar-->
+                <div class="searchbox">
+                    <form action="javascript:;">
+                        <div class="inputbox">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                            <input type="text" placeholder="Search Photos and Videos" />
+                            <button type="submit">Search</button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+                <!--end search bar-->
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li>
+                            <a href="partner.html">Partner with us</a>
+                        </li>
+                        <li>
+                            <a href="vendor_detail.html">Sell on Planetshare</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown user_infodet">
+                            <a class="icon_user_login" href="Javascript:;"><span><i class="fa fa-user-circle" aria-hidden="true"></i></span></a>
+                            <div class="overlay"></div>
+                            <div class="user_infobox">
+                                <span class="closebtn">&#10005;</span>
+                                <div class="user_name">
+                                    <h3>Hi, rohitkumar1992</h3>
+                                    <span>User ID: 192839495</span>
+                                    <a href="edit_profile.html" class="prof_edit_icon"><i class="fa fa-pencil"></i></a>
+                                </div>
+                                <div class="browse_plan">
+                                    <h3>Browse plans and pricing</h3>
+                                    <ul class="browse_list">
+                                        <li><a href="pricing.html">Images</a></li>
+                                        <li><a href="pricing.html">Music</a></li>
+                                        <li><a href="pricing.html">Videos</a></li>
+                                        <li><a href="pricing.html">Editorial</a></li>
+                                    </ul>
+                                </div>
+                                <div class="links">
+                                    <ul class="link_list">
+                                        <li><a href="javascript:;"><i class="fa fa-university" aria-hidden="true"></i> Account Details</a></li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#features_list"><i class="fa fa-sticky-note-o" aria-hidden="true"></i> Collections</a>
+                                            <ul class="features_list" id="features_list" style="display:none;">
+                                                <li><a href="collection.html">Image Collection</a></li>
+                                                <li><a href="collection.html">Video Collection</a></li>
+                                                <li><a href="collection.html">Music Collection</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="features">
+                                            <a href="javascript:;" data-toggle="collapse" data-target="#down_list"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
+                                            <ul class="features_list" id="down_list" style="display:none;">
+                                                <li><a href="downloads.html">Image Download</a></li>
+                                                <li><a href="downloads.html">Video Download</a></li>
+                                                <li><a href="downloads.html">Music Download</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:;"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="login.html" class="btn btn_join">Join</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="header_bot">
+            <div class="header_row">
+                <nav class="navbar navbar-expand-md">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon">X</span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="Javascript:;" data-toggle="dropdown">Transcoding</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="javascript:;">Logo Design <span class="fit-tag">new</span></a>
+                                    <a class="dropdown-item" href="javascript:;">Business Cards & Stationery</a>
+                                    <a class="dropdown-item" href="javascript:;">Illustration</a>
+                                    <a class="dropdown-item" href="javascript:;">Brochure Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Poster Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Flyer Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Cartoons & Comics</a>
+                                    <a class="dropdown-item" href="javascript:;">Portraits & Caricatures</a>
+                                    <a class="dropdown-item" href="javascript:;">Packaging Design</a>
+                                    <a class="dropdown-item" href="javascript:;">Infographic Design</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Dubbing</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Auto Tagging</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Subtitling & Caption</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Streaming</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:;">Archiving</a>
+                            </li> 
+                        </ul>
+                    </div> 
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="sticky_header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            </div>
+            <!--Search Bar-->
+            <div class="searchbox">
+                <form action="javascript:;">
+                    <div class="inputbox">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="text" placeholder="Search Photos and Videos" />
+                        <button type="submit">Search</button>
+                    </div>
+                    <div class="clearfix"></div>
+                </form>
+                <div class="clearfix"></div>
+            </div>
+            <!--end search bar-->
+        </div>
+    </div>
+    <!--end header-->
+
+
+    <!-- service banner -->
+    <section class="ser_banner trans">
+        <div class="container">
+            <div class="caption">
+                <h2>ApsaraVideo Media Processing</h2>
+                <p>A cloud service for transcoding multimedia data into various output resolutions, bit rates, and formats for unhindered playback</p>
+                <div class="buttons">
+                    <a class="btndefault" href="javascript:">Buy Now</a>
+                    <a class="btndefault" href="javascript:">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- end service banner -->
+
+
+    <!--Inner content-->
+    <section class="inner_cont trans_ser">
+        <!-- Nav tabs -->
+        <div class="tabs_link sticky-top">
+            <div class="container">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="javascript:">Overview</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="javascript:">Documentation</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tab panes -->
+        <div class="trans_layout">
+          <div class="container">
+              <div class="cont_part">
+                  <p>Alibaba Cloud Media Processing is a cloud service for transcoding multimedia data. It provides a cost-effective, easy-to-use, elastic, and highly scalable method to convert audio and video into formats suitable for playing on PCs, TVs, and mobile interfaces. Media Processing was designed based on the needs of Alibaba Cloud users. In the past, users dedicated time and resources to purchase, build, and manage transcoding software and hardware, as well as perform sophisticated configuration optimization, transcode parameter adaptation, and other operations. Media Processing has changed all this by enhancing the elasticity of the cloud; this service provides transcoding capabilities to satisfy tomorrow's transcoding demands all while reducing wastes.</p>
+              </div>
+          </div>
+        </div>
+        <div class="trans_layout banefit">
+            <div class="container">
+                <h2>Banefits</h2>
+                <div class="cont_bnft">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="images/trans_benefit_icon1.png" alt="" />
+                                </div>
+                                <h3>Ultra-Speed Transcoding</h3>
+                                <p>Features multi-region deployment and dynamic on-demand scaling. Handles high-concurrency scenarios easily and ensures efficient transcoding.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="images/trans_benefit_icon2.png" alt="" />
+                                </div>
+                                <h3>Digital Restoration Service</h3>
+                                <p>Features the latest human visual system models and breaks average transcoding limits. This service can also be used to restore corrupted video files.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="images/trans_benefit_icon3.png" alt="" />
+                                </div>
+                                <h3>NarrowBand HD</h3>
+                                <p>NarrowBand HD and high efficiency video coding (HEVC) technology help you to save 20% to 30% more from the traffic costs than other competing technologies.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="box">
+                                <div class="icon">
+                                    <img src="images/trans_benefit_icon4.png" alt="" />
+                                </div>
+                                <h3>Feature-rich, Highly Customizable</h3>
+                                <p>The service provides video transcoding, snapshots, watermarks, video editing, splicing, and many other media transcoding capabilities that suit various scenarios.</p>
+                                <p>In addition, it provides highly-scalable media transcoding templates and custom transcoding parameters to meet diverse transcoding needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="trans_layout fture">
+            <div class="container">
+                <h2>Features</h2>
+                <div class="cont_fture">
+                    <div class="card">
+                        <h5 data-toggle="collapse" data-target="#media_transcoding" aria-expanded="true">
+                            <div class="icon">
+                                <img src="images/trans_fture_icon1.png" alt="" />
+                                <img class="w" src="images/trans_fture_iconw1.png" alt="" />
+                            </div>
+                            Media Transcoding
+                        </h5>
+                        <div id="media_transcoding" class="collapse show">
+                            <div class="card-body">
+                                <p>Supports all major formats, and includes professional customizable transcoding services such as NarrowBand HD, double-speed transcoding and video encryption. Audio and Video Transcoding</p>
+                                <h3>Audio and Video Transcoding</h3>
+                                <p>Supports all mainstream formats, H.264 and H.265 codecs, multimedia container formats, and subtitles.</p>
+                                <h3>Transcoding Templates</h3>
+                                <p>Offers preset templates, smart templates, and custom templates to meet multiple needs.</p>
+                                <h3>Workflows</h3>
+                                <p>The console can be operated with GUI. Quickly builds an audio or video processing flow, and automatically triggers transcoding when the media file is uploaded.</p>
+                                <h3>Watermarks</h3>
+                                <p>Encodes an identifying image or text in the output video.</p>
+                                <h3>Video Clipping and Stitching</h3>
+                                <p>Allows you to specify a start time and a duration. You can merge multiple videos to create a single output.</p>
+                                <h3>Audio or Video Extraction</h3>
+                                <p>Allows you to separate and extract the audio or video from video files.</p>
+                                <h3>NarrowBand HD</h3>
+                                <p>Includes the latest narrowband HD transcoding technology, and allows you to save 20% to 30% bandwidth costs.</p>
+                                <h3>Double-Speed Transcoding</h3>
+                                <p>Applies to videos of 30 minutes in length or more. Encodes video fragments in parallel to make the transcoding speed 5 times quicker.</p>
+                                <h3>Video Encryption</h3>
+                                <p>Supports “Alibaba Cloud proprietary encryption”and “HLS-AES128 encryption”. Secures video content against downloading. This feature is useful for education and pay-per-view (PPV).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="collapsed" data-toggle="collapse" data-target="#video_screenshot">
+                            <div class="icon">
+                                <img src="images/trans_fture_icon2.png" alt="" />
+                                <img class="w" src="images/trans_fture_iconw2.png" alt="" />
+                            </div>
+                            Video Screenshots
+                        </h5>
+                        <div id="video_screenshot" class="collapse">
+                            <div class="card-body">
+                                <p>Captures screenshots of videos on OSS at a specified start time.</p>
+                                <h3>Video Screenshots</h3>
+                                <p>Captures JPEG screenshots of videos on OSS at a specified start time. Supports single screenshot, multiple screenshot, and average screenshot.</p>
+                                <h3>Image Sprites</h3>
+                                <p>Combines multiple images into a single image sprite. Using image sprites allows you to obtain multiple pictures through one request. This significantly reduces the number of server requests and improves client-side performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="collapsed" data-toggle="collapse" data-target="#digital_restoration">
+                            <div class="icon">
+                                <img src="images/trans_fture_icon3.png" alt="" />
+                                <img class="w" src="images/trans_fture_iconw3.png" alt="" />
+                            </div>
+                            Digital Restoration Service
+                        </h5>
+                        <div id="digital_restoration" class="collapse">
+                            <div class="card-body">
+                                <p>Makes existing content sources clearer and smoother, and provides an industry unique VIP viewing experience.</p>
+                                <h3>High Frame Rate Conversion (FRC)</h3>
+                                <p>Converts HD videos with 30 frames per second or lower into HD videos with up to 60 or 120 frames per second, without compromising the streaming quality even on a 4K screen.</p>
+                                <h3>Picture Rescue (PicRescue)</h3>
+                                <p>For online videos that have been overly-compressed, glitch and mosaic are removed to create restored versions with higher levels of clarity.</p>
+                                <h3>SD to HD Conversion (SD to HD)</h3>
+                                <p>For standard definition videos, video granules and compression noise are removed, and high-resolution is applied to create videos in 720p or 1080p.</p>
+                                <h3>2K to 4K Conversion (2K to 4K)</h3>
+                                <p>For 1080p clips, resolution technologies obtained from the study of a large number of videos are used to create high-quality 4K videos.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h5 class="collapsed" data-toggle="collapse" data-target="#video_editing">
+                            <div class="icon">
+                                <img src="images/trans_fture_icon4.png" alt="" />
+                                <img class="w" src="images/trans_fture_iconw4.png" alt="" />
+                            </div>
+                            Video Editing
+                        </h5>
+                        <div id="video_editing" class="collapse">
+                            <div class="card-body">
+                                <p>You can use Cloud Clip APIs to easily create content.</p>
+                                <h3>Cloud Clip APIs</h3>
+                                <p>A series of functional APIs allow you to clip, stitch, mask, and integrate videos, and add banner text to your videos. You can use cloud-based video editing APIs to rapidly build an online platform for video editing and production. The system supports editing videos, audios, pictures, and texts.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--end inner content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="aboutus.html#overview">Overview</a></li>
+                                <li><a href="aboutus.html#leadership">Leadership</a></li>
+                                <li><a href="aboutus.html#awards">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="selling_on_planetshare.html">Selling on Planetshare</a></li>
+                                <li><a href="buying_on_planetshare.html">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="terms_services.html">Terms & Conditions</a></li>
+                                <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                <li><a href="contactus.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+</body>
+
+</html>

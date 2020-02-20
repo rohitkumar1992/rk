@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header dash_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li>
+                            <a href="javascript:;">Messages</a>
+                        </li>
+                        <li><a href="javascript:;">Orders</a></li>
+                        <li><a href="javascript:;">Gigs</a></li>
+                        <li><a href="javascript:;">Analytics</a></li>
+                        <li><a href="javascript:;">Earnings</a></li>
+                        <li><a href="javascript:;">Community</a></li>
+                        <li><a href="javascript:;">More</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="switch_link" href="partner.html" data-toggle="tooltip" title="Find professional services and connect with freelancers. We'll set this as your default mode.">Switch to Buying</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="Javascript:;" data-toggle="dropdown"><span><img src="images/buyer_reg2.jpg" alt="" /></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Profile</a>
+                                <a class="dropdown-item" href="javascript:;">Refer & Get up to <i class="fa fa-inr"></i>100</a>
+                                <a class="dropdown-item" href="javascript:;">Settings</a>
+                                <a class="dropdown-item" href="javascript:;">Help & Support</a>
+                                <a class="dropdown-item" href="javascript:;">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+   
+
+
+    <!--biddding content-->
+    <section class="dashb_cont">
+        <div class="container">
+            <div class="content_dash bidding_dash">
+                <h2>Add New Listing</h2>
+                <div class="bidding_form">
+                    <h3>Listing Details</h3>
+                    <form class="bid_form">
+                        <div class="fields">
+                            <div class="field">
+                                <label>Department <span data-toggle="tooltip" title="Select the department you wish this Listing to belong to. This will determine what members of your Organization will receive relevant notifications and who will be able to manage Enquiries and Offers."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>Planetcast Media - General</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields boxes">
+                            <div class="box l">
+                                <div class="field">
+                                    <label for="upload_vimg">
+                                        <input type="file" id="upload_vimg" />
+                                        <i class="fa fa-upload" aria-hidden="true"></i>
+                                        <b>Upload key artwork <sup>*</sup></b>
+                                        <p>Click here to choose poster file to upload</p>
+                                        <img src="" id="bid_thumbnail" alt="" />
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="box r">
+                                <div class="field al pd0">
+                                    <label>Listing Title/Name<sup>*</sup> <span data-toggle="tooltip" title="Type in the name of the new Listing. If the Listing represents a TV Series/Season, please do not include the season number in the title. Instead, simply put the name of the TV Show. (i.e. do not enter in 'Friends: Season 3', instead simply put 'Friends'. We'll fill in the season number later. Please provide the title in the primary language and specify the language in the language dropdown to the right."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                    <div class="inputbox">
+                                        <input type="text" alt="" />
+                                        <select>
+                                            <option>English</option>
+                                            <option>Hindi</option>
+                                            <option>Gujarati</option>
+                                        </select>
+                                        <select>
+                                            <option>Working</option>
+                                            <option>Internal</option>
+                                            <option>Regional</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="field al">
+                                    <label>Alternate Titles <span data-toggle="tooltip" title="You can provide one or more alternate titles of the listed Film, TV series, etc. Often this could be a different title used in another market, or a different language representation of the title. If the original title's language is not English and you provided the English title above, then providing the original language title here is encouraged."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                    <div class="inputbox">
+                                        <input type="text" placeholder="Alternate Title" alt="" />
+                                        <select>
+                                            <option>English</option>
+                                            <option>Hindi</option>
+                                            <option>Gujarati</option>
+                                        </select>
+                                        <select>
+                                            <option>Working</option>
+                                            <option>Internal</option>
+                                            <option>Regional</option>
+                                        </select>
+                                        <div class="icon">
+                                            <!--<i class="fa fa-plus-circle" aria-hidden="true"></i>-->
+                                            <i class="fa fa-minus-circle" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                    <div class="inputbox">
+                                        <input type="text" placeholder="Alternate Title" alt="" />
+                                        <select>
+                                            <option>English</option>
+                                            <option>Hindi</option>
+                                            <option>Gujarati</option>
+                                        </select>
+                                        <select>
+                                            <option>Working</option>
+                                            <option>Internal</option>
+                                            <option>Regional</option>
+                                        </select>
+                                        <div class="icon">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                            <!--<i class="fa fa-minus-circle" aria-hidden="true"></i>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields boxes">
+                            <div class="field al">
+                                <label>Synopsis (max 4,000 characters)<sup>*</sup> <span data-toggle="tooltip" title="Provide a detailed Summary or Synopsis of the content represented in the Listing. If the Listing is a season of a TV Series, the Synopsis should describe the Season and not the overall TV Series. Specify the language of the Synopsis you entered. Press the (+) icon if you'd like to add another Synopsis in another language"><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <textarea placeholder="Add a synopsis to your listing"></textarea>
+                                    <select>
+                                        <option>English</option>
+                                        <option>Hindi</option>
+                                        <option>Gujarati</option>
+                                    </select>
+                                    <div class="icon">
+                                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        <!--<i class="fa fa-minus-circle" aria-hidden="true"></i>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields frmt">
+                            <div class="field">
+                                <label>Type<sup>*</sup> <span data-toggle="tooltip" title="Specify the type of work represented by the Listing, such as Film, TV Series, etc. If you select TV Series, then you will be asked to provide the Season number. Generally, Listings should be of Seasons and not entire Series."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>Film</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Runtime(minutes)<sup>*</sup> <span data-toggle="tooltip" title="The approximate run-time of the content described by the Listing in minutes. If the Listing is of a TV Series/Season, then please provide the typical length of a single episode in the series. Likewise, if the Listing is a multiple episode TV Show/Special, provide the typical length of a single episode. For broadcast, this should be the content length (e.g. a show that fills a 1 hour slot with commercials, will typically have a duration of 45 minutes)."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" value="0" />
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Format<sup>*</sup> <span data-toggle="tooltip" title="Select the format profiles the Listing's content is available in for licensing."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <label for="sd">
+                                        <input type="checkbox" id="sd" />
+                                        <span>SD</span>
+                                    </label>
+                                    <label for="hd">
+                                        <input type="checkbox" id="hd" />
+                                        <span>HD</span>
+                                    </label>
+                                    <label for="4k">
+                                        <input type="checkbox" id="4k" />
+                                        <span>4K</span>
+                                    </label>
+                                    <label for="8k">
+                                        <input type="checkbox" id="8k" />
+                                        <span>8K</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Languages<sup>*</sup> <span data-toggle="tooltip" title="Provide the primary, original spoken language(s) of the Listing. This is not meant to represent any dubbings (these will come next)."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Select language(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Dubbing Languages <span data-toggle="tooltip" title="Provide a listing of audio dubbings available for licensing."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Select dubbing language(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Subtitles Languages <span data-toggle="tooltip" title="Provide a listing of subtitles available for licensing."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Select subtitle language(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Target Demographic <span data-toggle="tooltip" title="Specify whether the Listing is targeted at the General Audience or Specific Audiences. You can specify several Specific Audiences."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>Unspecified Audience</option>
+                                        <option>Specific Audience</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Censorship Rating <span data-toggle="tooltip" title="Provide a rating of the Listing, generally from the country of origin. If there is no rating, please select 'Not Rated'. If unknown, please leave this blank."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option></option>
+                                        <option></option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Genre(s)<sup>*</sup> <span data-toggle="tooltip" title="Provide a listing of one or more Genres of the Listing."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Select genre(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Keywords <span data-toggle="tooltip" title="Provide a listing of relevant keywords that will help buyers find your Listing more easily. These keywords can be as detailed as needed."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Select keyword(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="field">
+                                        <label>IMDB ID <span data-toggle="tooltip" title="If you know the IMDb id of your Film or Series, please enter it here. IMDb IDs typically take the form of 'tt#######', and can be found in the URL of the entry. e.g. The IMDb URL for the movie Avatar is https://www.imdb.com/title/tt0499549/. The IMDb ID is tt0499549. It is strongly encouraged to enter the IMDb ID if an IMDb entry already exists as it will help prospective buyers evaluate your Listing better."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                        <div class="inputbox">
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="field">
+                                        <label>EIDR ID <span data-toggle="tooltip" title="EIDR is a global unique identifier system for a broad array of audio visual objects, including motion pictures, television, and radio programs. More and more content buyers are requiring the use of EIDR when ingesting content onto their platforms. Vuulr uses EIDR to uniquely identify Films, TV Series, etc so that both the Buyer and Seller can effectively and transparently transact. If your content already has an EIDR ID, please type it in here. If not, don't worry - Vuulr will help register one for you."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                        <div class="inputbox">
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Production Details</h3>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Production Studios<sup>*</sup> <span data-toggle="tooltip" title="Type in one or more companies that were/are involved in the production of the content described in this Listing. These are typically the top few production companies that were/are instrumental in producing the content. Note that this should not be a listing of the individual producers with producer credits. We'll capture these later."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Production companies" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="field">
+                                        <label>Production Status<sup>*</sup> <span data-toggle="tooltip" title="Select whether the content described in this Listing are Released or not yet Released. This does not determine whether the Listing is shown to buyers in the Marketplace, rather, the status of production and distribution."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                        <div class="inputbox">
+                                            <select>
+                                                <option>Released</option>
+                                                <option>Un-released</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="field">
+                                        <label>Year of Production <span data-toggle="tooltip" title="Provide the Year of Production of the Listing. This is often the same as Year of Release, however it can be different. This is an optional field."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                        <div class="inputbox">
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="field">
+                                        <label>Year of Release<sup>*</sup> <span data-toggle="tooltip" title="Provide the Year of Release of the Listing. This should be the year of original release and not subsequent re-releases or dubbing releases. This is a required field."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                        <div class="inputbox">
+                                            <input type="text" placeholder="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Country(ies) of origin<sup>*</sup> <span data-toggle="tooltip" title="Provide a listing of the one or more primary countries of origin of this Listing. This is not a listing of the filming locations."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Countries of origin" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Cast & Crew</h3>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Cast members <span data-toggle="tooltip" title="Provide a listing of the key four or five cast members. Focus on the recognizable names. This will help buyers find your Listing if they're interested in purchasing content featuring a specific actor."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Cast" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Producer(s) <span data-toggle="tooltip" title="Provide a listing of the key four or five Producers. Focus on the recognizable names and/or those Producers with higher responsibilities in the production. This will help buyers find your Listing if they're interested in purchasing content featuring a specific Producer."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Producer(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Director(s)<sup>*</sup> <span data-toggle="tooltip" title="Provide the name of the director (or a list of if there are more than one). This will help buyers find your Listing if they're interested in purchasing content featuring a specific Director."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Director(s)" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Writer(s) <span data-toggle="tooltip" title="Provide a listing of the key four or five writers. Focus on the recognizable names and/or those Writers with higher writing credits. This will help buyers find your Listing if they're interested in purchasing content featuring a specific Writer."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Writer(s)" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Awards & Revenue</h3>
+                        <div class="fields">
+                            <div class="field">
+                                <label>Awards <span data-toggle="tooltip" title="Provide a listing of awards the Listing has won that will help set the Listing apart from other Listings on the platform."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <input type="text" placeholder="Awards" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field cur">
+                                <label>Domestic Box office <span data-toggle="tooltip" title="If the Listing is a Film, provide the approximate box office in the primary market the Film was first released. Highlighting high-grossing films will help sell the Film in the marketplace. Please provide values in USD."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>USD</option>
+                                        <option>INR</option>
+                                    </select>
+                                    <input type="text" placeholder="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fields">
+                            <div class="field cur">
+                                <label>Global Box office <span data-toggle="tooltip" title="If the Listing is a Film, provide the approximate global box office of the film's first release. Highlighting high-grossing films will help sell the Film in the marketplace. Please provide values in USD."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span></label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>USD</option>
+                                        <option>INR</option>
+                                    </select>
+                                    <input type="text" placeholder="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Restrict Access to Listing by Country <span data-toggle="tooltip" title="You can restrict access to this Listing to users from certain countries. By selecting the 'Only Allow From' option, only users from the the county(ies) listed will be able to access this listing. With the 'Restrict From' option, users from the country(ies) listed will not be able to access this listing."><i class="fa fa-question-circle-o" aria-hidden="true"></i></span>
+                            <label class="switch" data-toggle="collapse" data-target="#restrict_field">
+                              <input type="checkbox" />
+                              <span class="slider round"></span>
+                            </label>
+                        </h3>
+                        <div class="fields collapse" id="restrict_field">
+                            <div class="field coun">
+                                <label>Specify one or more countries/territories you wish to restrict access from for this Listing</label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>Only Allow From</option>
+                                        <option>Restict From</option>
+                                    </select>
+                                    <input type="text" placeholder="Countries" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Rights format</h3>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Format</th>
+                                        <th colspan="2">Rights</th>
+                                        <th>Holdback</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Free to Air</td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Pay tv</td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input type="checkbox" />
+                                                <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="fields">
+                            <div class="field chanl">
+                                <label>Channel/Platform</label>
+                                <div class="inputbox">
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Channel1</span>
+                                    </label>
+                                    <label>
+                                        <input type="checkbox" />
+                                        <span>Channel2</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="field">
+                                <label>Number of runs</label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>Unlimited</option>
+                                        <option>Four times</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Make an Offer</h3>
+
+                        <div class="fields">
+                            <div class="field coun">
+                                <label>Offer Price</label>
+                                <div class="inputbox">
+                                    <select>
+                                        <option>USD $</option>
+                                        <option>INR &#8377;</option>
+                                    </select>
+                                    <input type="text" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="field radio">
+                                <label>Terms and Conditions</label>
+                                <div class="inputbox">
+                                    <label>
+                                        <input type="radio" name="t&c" />
+                                        <span>Buyer Terms & Conditions</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="t&c" />
+                                        <span>Seller Terms & Conditions</span>
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="t&c" />
+                                        <span>Other Terms & Conditions</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fields">
+                            <div class="field msg">
+                                <label>Message(Optional)</label>
+                                <div class="inputbox">
+                                    <textarea></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <button type="submit" class="btndefault">Continue</button>
+                        </div>
+
+
+
+                        <div class="offer_form_det">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Format</th>
+                                            <th colspan="2">Rights</th>
+                                            <th>Holdback</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Free to Air</td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" checked />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label>
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check" aria-hidden="true"></i> <b>Exclusive</b></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="fields">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="field">
+                                            <label>Authorized Channel</label>
+                                            <div class="inputbox">
+                                                <p>Channel2</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="field">
+                                            <label>Number of runs</label>
+                                            <div class="inputbox">
+                                                <p>Unlimited</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="field">
+                                    <label>Terms and Conditions</label>
+                                    <div class="inputbox">
+                                        <p>Buyer Terms & Conditions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="field">
+                                    <label>Message</label>
+                                    <div class="inputbox">
+                                        <p>Buyer Terms & Conditions</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="field t_fee">
+                                    <label>Total Licensing Fee</label>
+                                    <div class="inputbox">
+                                        <div class="l">
+                                            <p>1*$2500000</p>
+                                        </div>
+                                        <div class="r">
+                                            <p>$25000000</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="buttons">
+                                <button type="submit" class="btndefault">Make and Offer</button>
+                                <button type="button" class="btndefault">Cancel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!--bidding content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Overview</a></li>
+                                <li><a href="javascript:;">Leadership</a></li>
+                                <li><a href="javascript:;">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                                <li><a href="javascript:;">Investor Room</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Help & Support</a></li>
+                                <li><a href="javascript:;">Trust & Safety</a></li>
+                                <li><a href="javascript:;">Selling on Planetshare</a></li>
+                                <li><a href="javascript:;">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="   https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+
+    <script>
+        function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+                
+                reader.onload = function (e) {
+                    $('#bid_thumbnail').attr('src', e.target.result);
+                }
+                
+                reader.readAsDataURL(input.files[0]);
+            }
+          }
+          
+          $("#upload_vimg").change(function(){
+              readURL(this);
+          });
+    </script>
+
+</body>
+
+</html>

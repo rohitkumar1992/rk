@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlanetShare</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Planetshare">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Planetshare">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Hind+Guntur:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel='shortcut icon' type='image/png' href='images/favicon.png' />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />   
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+    <script src="js/wow.js"></script>
+	<script src="js/custom.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <header class="home_header dash_header">
+        <div class="header_wrap">
+            <div class="header_row">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="" /></a>
+                </div>
+                <nav class="planet_nav planet_nav_right">
+                    <ul>
+                        <li><a href="javascript:;">Dashboard</a></li>
+                        <li><a href="javascript:;">Messages</a></li>
+                        <li><a href="javascript:;">Orders</a></li>
+                        <li><a href="javascript:;">Gigs</a></li>
+                        <li><a href="javascript:;">Analytics</a></li>
+                        <li><a href="javascript:;">Earnings</a></li>
+                        <li><a href="javascript:;">Community</a></li>
+                        <li><a href="javascript:;">More</a></li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a class="switch_link" href="partner.html" data-toggle="tooltip" title="Find professional services and connect with freelancers. We'll set this as your default mode.">Switch to Buying</a>
+                        </li>
+                        <!-- <li>
+                            <a href="login.html">Login</a>
+                        </li> -->
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" href="Javascript:;" data-toggle="dropdown"><span><img src="images/buyer_reg2.jpg" alt="" /></span></a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="javascript:;">Dashboard</a>
+                                <a class="dropdown-item" href="javascript:;">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+
+    <!--Home content-->
+    <section class="inner_cont create_gig">
+        <article class="gig_info">
+            <div class="container">
+                <div class="vend_cont">
+                    <form class="form_control" action="javascript:;">
+                        <div class="field_area">
+                            <div class="fields">
+                                <div class="label">
+                                    <label>
+                                        <span>Gig Title</span>
+                                    </label>
+                                </div>
+                                <div class="inputbox">
+                                    <textarea class="title" maxlength="80" placeholder="do something I'm really good at"></textarea>
+                                    <span class="indent">I will</span>
+                                    <div class="inf">
+                                        <span class="char-count">0/80 max</span>
+                                    </div>
+                                </div>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                        <div class="text">
+                                            <h3>Describe your Gig.</h3>
+                                            <p>This is your Gig title. Choose wisely, you can only use 80 characters.</p>
+                                        </div>
+                                        <div class="gig_t_img"><img src="images/icon_tooltip1.png" alt="" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="label">
+                                    <label>
+                                        <span>Category</span>
+                                    </label>
+                                </div>
+                                <div class="inputbox">
+                                    <select>
+                                        <option selected>Select Category</option>
+                                        <option>India</option>
+                                        <option>Australia</option>
+                                        <option>England</option>
+                                        <option>America</option>
+                                    </select>
+                                    <select>
+                                        <option selected>Select Sub Category</option>
+                                        <option>India</option>
+                                        <option>Australia</option>
+                                        <option>England</option>
+                                        <option>America</option>
+                                    </select>
+                                </div>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>Where will your Gig end up?</h3>
+                                            <p>By defining your Gig properly it will be easier for buyers to find and buy.</p>
+                                        </div>
+                                        <div class="gig_t_img"><img src="images/icon_tooltip6.png" alt="" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields lang">
+                                <div class="label">
+                                    <label>
+                                        <span>Language</span>
+                                    </label>
+                                </div>
+                                <div class="inputbox">
+                                    <div class="lang_box">
+                                        <div class="box">
+                                            <h3>What language do you write in?</h3>
+                                            <ul class="lang_list">
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Albanian</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Bangali</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Dari</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>English</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Danish</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Dutch</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Arabic</span>
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label>
+                                                        <input type="checkbox" alt="" />
+                                                        <span class="check"></span>
+                                                        <span>Catalan</span>
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>Make your Gig easy to find.</h3>
+                                            <p>By defining your Gig properly it will be easier for buyers to find and buy.</p>
+                                        </div>
+                                        <div class="gig_t_img"><img src="images/icon_tooltip12.png" alt="" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="fields">
+                                <div class="label">
+                                    <label>
+                                        <span>Search Tags</span>
+                                    </label>
+                                </div>
+                                <div class="inputbox">
+                                    <input type="text" value="" placeholder="" />
+                                    <div class="inf">
+                                        <span class="char-count">Up to 5 items</span>
+                                    </div>
+                                </div>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>Let Buyers Know How to Find Your Gig</h3>
+                                            <p>Enter search terms, which you feel buyers will use when looking for your service.<p>
+                                            <p>The terms you enter here are very important and will have an impact on your overall exposure on Planetshare.<p>
+                                            <p>When adding your search terms, please keep in mind the following:</p>
+                                            <ul>
+                                                <li>
+                                                    <p>Special characters and duplicated terms will be ignored.</p>
+                                                </li>
+                                                <li>
+                                                    <p>It doesn’t matter if you use upper case, lower case letters, or plural forms of words.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="gig_t_img"><img src="images/icon_tooltip4.png" alt="" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="packages">
+                            <h3 class="head">Packages</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered pack_table">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th>Basic</th>
+                                            <th>Standard</th>
+                                            <th>Premium</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="pack_name tool_wrap">
+                                            <td></td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Name your package"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Name your package"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Name your package"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Title</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li><p>Give your package a catchy title, which describes what it includes.</p></li>
+                                                            <li><p><b>For example:</b> 2D or 3D cover, Print-Ready Version</p></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="pack_name desc">
+                                            <td></td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Description</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li><p>Summarize what this package offers buyers, and why you included these items in your package.</p></li>
+                                                            <li><p>You can use maximum 100 chars.</p></li>
+                                                        </ul>
+                                                        <p><b>For example:</b> This "Full Logo Design" package includes a standard logo design with 4 revisions and the source file.</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="pack_name desc">
+                                            <td></td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <textarea placeholder="Describe the details of your offering"></textarea>
+                                                    <i class="fa fa-pencil"></i>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Video Length</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li><p>Summarize what this package offers buyers, and why you included these items in your package.</p></li>
+                                                            <li><p>You can use maximum 100 chars.</p></li>
+                                                        </ul>
+                                                        <p><b>For example:</b> This "Full Logo Design" package includes a standard logo design with 4 revisions and the source file.</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="pack_del">
+                                            <td></td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Delivery Time</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li><p>Delivery Time is the amount of time you have to work on the package, starting from when a buyer places the order.</p></li>
+                                                            <li><p>Set a delivery time that makes sense for you, based on the combined time it takes you to create every part of the package.</p></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="pack_del">
+                                            <td>Revisions</td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option>Delivery Time</option>
+                                                        <option>1 day delivery</option>
+                                                        <option>2 day delivery</option>
+                                                        <option>3 day delivery</option>
+                                                        <option>4 day delivery</option>
+                                                    </select>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Select to include in your packages</h3>
+                                                        </div>
+                                                        <p><b>Revisions</b></p>
+                                                        <p>The number of tweaks you offer in this package.</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Editable File</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Review & Critique</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Edit & Rewrite</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Custom Design</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Optimize Linkedin Profile</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="check_box">
+                                            <td>Cover Letter</td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                            <td>
+                                                <label class="checkbox_fake">
+                                                    <input type="checkbox" />
+                                                    <span><i class="fa fa-check-square" aria-hidden="true"></i></span>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr class="pack_del">
+                                            <td>Price</td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option selected>$5-$995</option>
+                                                        <option>$5</option>
+                                                        <option>$10</option>
+                                                        <option>$15</option>
+                                                        <option>$20</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option selected>$5-$995</option>
+                                                        <option>$5</option>
+                                                        <option>$10</option>
+                                                        <option>$15</option>
+                                                        <option>$20</option>
+                                                    </select>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="inputbox">
+                                                    <select>
+                                                        <option selected>$5-$995</option>
+                                                        <option>$5</option>
+                                                        <option>$10</option>
+                                                        <option>$15</option>
+                                                        <option>$20</option>
+                                                    </select>
+                                                </div>
+                                                <div class="gig_tooltip">
+                                                    <div class="box">
+                                                        <div class="text">
+                                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                                            <h3>Price</h3>
+                                                        </div>
+                                                        <ul>
+                                                            <li><p>Earn up to 64% more per order with Triple Gig Packages.</p></li>
+                                                            <li><p>Package price can be between <i class="fa fa-inr"></i>5 - <i class="fa fa-inr"></i>995.</p></li>
+                                                            <li><p>Price your packages from lowest (Basic) to highest (Premium).</p></li>
+                                                            <li><p>You can always change your package price in the future.</p></li>
+                                                            <li><p>This is the base price, you can add "Upgrades" in the section below.</p></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="description">
+                            <h3 class="head">Description</h3>
+                            <div class="disc_box">
+                                <label>Briefly Describe Your Gig</label>
+                                <div class="inputbox">
+                                    <textarea minlength="120" maxlength="1200"></textarea>
+                                    <div class="inf">
+                                        <span>min. 120</span>
+                                        <span class="char-count">0/1200 characters</span>
+                                    </div>
+                                </div>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>This is your chance to be creative. Explain your Gig.</h3>
+                                            <p>Describe what you are offering. Be as detailed as possible so buyers will be able to understand if this meets their needs. Should be at least 120 characters.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="build_gal">
+                            <h3 class="head">Build Your Gig Gallery</h3>
+                            <div class="upload_area">
+                                <label>Gig Photos <span>Upload photos that describe or are related to your Gig.</span></label>
+                                <span class="gal_count">(0/3)</span>
+                                <ul class="browse_list">
+                                    <li>
+                                        <div class="upl_box">
+                                            <div class="drag_area">
+                                                <span>Drag a Photo or</span>
+                                                <label for="gig_upload">
+                                                    <input type="file" id="gig_upload" />
+                                                    <span>Browse</span>
+                                                    <img src="" id="upload_img" alt="" />
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="upl_box">
+                                            
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="upl_box">
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>Photos</h3>
+                                            <p>Upload photos in JPEG, JPG, PNG and ensure they’re at least 550 pixels width x 370 pixels height.</p>
+                                            <p>We suggest uploading them in landscape format to make better use of the space.</p>
+                                            <p>Lastly, put your best foot forward! Stand out on Planetshare with your favorite photos.</p>
+                                            <p>Need help? Check out Planetshare expert photoshop talent here.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="upload_area">
+                                <label>Gig Videos <span>Add a relevant, high quality video that best showcases your Gig. <br>Please choose a video shorter than 75 seconds and smaller than 50MB</span></label>
+                                <span class="gal_count">(0/1)</span>
+                                <ul class="browse_list">
+                                    <li>
+                                        <div class="upl_box">
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div class="gig_tooltip">
+                                    <div class="box">
+                                        <div class="text">
+                                            <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                            <h3>Video</h3>
+                                            <p>Upload photos in JPEG, JPG, PNG and ensure they’re at least 550 pixels width x 370 pixels height.</p>
+                                            <p>Ensure the production quality is representative of your deliveries.</p>
+                                            <p>Need help with your video? Check out our Planetshare expert audio/video talent here.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="upload_area">
+                                <label>Gig PDFs <span>We only recommend adding a PDF file if it further clarifies the service you will be providing.</span></label>
+                                <span class="gal_count">(0/2)</span>
+                                <ul class="browse_list">
+                                    <li>
+                                        <div class="upl_box">
+                                            
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="upl_box">
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="buttons">
+                            <button type="submit" class="btndefault">Save & Continue</button>
+                        </div>
+
+                        <div class="gig_tooltip gig_tooltip_main">
+                            <div class="box">
+                                <div class="icon"><i class="fa fa-plane" aria-hidden="true"></i></div>
+                                <div class="text">
+                                    <h3>Start Defining Your Gig</h3>
+                                </div>
+                                <div class="gig_t_img"><img src="images/tooltip_vd.jpg" alt="" /></div>
+                                <ul>
+                                    <li>
+                                        <p>Create a catchy title.</p>
+                                    </li>
+                                    <li>
+                                        <p>Choose a category that fits your Gig.</p>
+                                    </li>
+                                    <li>
+                                        <p>Add meta data to help buyers find more information regarding your Gig.</p>
+                                    </li>
+                                    <li>
+                                        <p>Add tags to help buyers find your Gig while searching.</p>
+                                    </li>
+                                </ul>
+
+                                <hr></hr>
+
+                                <div class="text">
+                                    <h3>Set your packages</h3>
+                                </div>
+                                <div class="gig_t_img"><img src="images/tooltip_vd.jpg" alt="" /></div>
+                                <ul>
+                                    <li>
+                                        <p>Set the prices for your 3 packages.</p>
+                                    </li>
+                                    <li>
+                                        <p>Select the elements you want to include in each offer.</p>
+                                    </li>
+                                    <li>
+                                        <p>Add Extras to increase your order value.</p>
+                                    </li>
+                                </ul>
+
+                                <hr></hr>
+
+                                <div class="text">
+                                    <h3>Write Your Description</h3>
+                                </div>
+                                <div class="gig_t_img"><img src="images/tooltip_vd.jpg" alt="" /></div>
+                                <ul>
+                                    <li>
+                                        <p>Include the most important information for your Gig.</p>
+                                    </li>
+                                </ul>
+
+                                <hr></hr>
+
+                                <div class="text">
+                                    <h3>Showcase Your Talent</h3>
+                                </div>
+                                <div class="gig_t_img"><img src="images/tooltip_vd.jpg" alt="" /></div>
+                                <ul>
+                                    <li>
+                                        <p>Add photos, an introduction video files that best represent your service.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </article>
+        <div class="clearfix"></div>
+    </section>
+    <!--end home content-->
+
+
+    <!--footer-->
+    <footer class="h_footer">
+        <article class="f_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <h5>Categories</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Business</a></li>
+                                <li><a href="javascript:;">Fashion</a></li>
+                                <li><a href="javascript:;">Healthcare</a></li>
+                                <li><a href="javascript:;">Science</a></li>
+                                <li><a href="javascript:;">Wildlife</a></li>
+                                <li><a href="javascript:;">Beauty</a></li>
+                                <li><a href="javascript:;">Education</a></li>
+                                <li><a href="javascript:;">Food & Drink</a></li>
+                                <li><a href="javascript:;">Holidays</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>About</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Overview</a></li>
+                                <li><a href="javascript:;">Leadership</a></li>
+                                <li><a href="javascript:;">Awards and Achievements</a></li>
+                                <li><a href="javascript:;">Our Value Proposition</a></li>
+                                <li><a href="javascript:;">Events</a></li>
+                                <li><a href="javascript:;">Investor Room</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Support & Solutions</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Help & Support</a></li>
+                                <li><a href="javascript:;">Trust & Safety</a></li>
+                                <li><a href="javascript:;">Selling on Planetshare</a></li>
+                                <li><a href="javascript:;">Buying on Planetshare</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Other</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Terms & Conditions</a></li>
+                                <li><a href="javascript:;">Privacy Policy</a></li>
+                                <li><a href="javascript:;">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="box">
+                            <h5>Services</h5>
+                            <ul class="links">
+                                <li><a href="javascript:;">Transcoding</a></li>
+                                <li><a href="javascript:;">Dubbing</a></li>
+                                <li><a href="javascript:;">Automatic Tagging</a></li>
+                                <li><a href="javascript:;">Subtitling</a></li>
+                                <li><a href="javascript:;">Archiving</a></li>
+                                <li><a href="javascript:;">Streaming</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <article class="f_bot">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <div class="f_logo">
+                                <a href="javascript:;"><img src="images/logo.png" alt="" /></a>
+                            </div>
+                            <div class="copy">
+                                <p>© 2019 COPYRIGHT @ PLANETCAST ALL RIGHTS RESERVED.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="box">
+                            <ul class="foot_social">
+                                <li>
+                                    <a href="https://www.facebook.com/Planetshare/" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/Planetshare_" target="_blank"><i class="fa fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="   https://www.linkedin.com/company/planetshare" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC3WZWabEFmWwwkZtwGoRfVA" target="_blank"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <div class="clearfix"></div>
+    </footer>
+    <!--end footer-->
+</body>
+
+</html>
