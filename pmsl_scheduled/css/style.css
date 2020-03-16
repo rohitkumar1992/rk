@@ -265,7 +265,7 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 .sidebar .links_area ul > li > a { position: relative; padding:8px 30px 8px 55px; font-size: 14px; display: block; text-align: left; line-height: 23px; color:#333; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 .sidebar .links_area ul > li:hover > a,
 .sidebar .links_area ul > li.active > a { background:#f1f1f1; padding-left: 65px; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
-.sidebar .links_area ul > li > a[aria-expanded="true"] i.fa-arrow-right { top: 32%; transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); }
+.sidebar .links_area ul > li > a[aria-expanded="true"] svg.fa-arrow-right { top: 32%; transform:rotate(90deg); -moz-transform:rotate(90deg); -webkit-transform:rotate(90deg); }
 .sidebar .links_area ul > li > a::before {content: ""; position: absolute; left: 30px; top: 50%; width: 10px; height: 10px; border-radius: 100%; border: 2px solid #fff; display: none; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%);}
 .sidebar .links_area ul > li > a > .menu-title { transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 .sidebar .links_area ul > li > a > svg { position: absolute; right: 30px; top: 50%; display: inline-block; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%); transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
@@ -276,7 +276,7 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 .sidebar .links_area ul > li ul { background:none; margin: 0px 0px; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out; }
 .sidebar .links_area ul > li.active ul { margin: 5px 0px; max-height: none; opacity:1; visibility: visible; transition: 0.3s ease-in-out; -moz-transition: 0.3s ease-in-out; -webkit-transition: 0.3s ease-in-out;}
 .sidebar .links_area ul > li ul li a {padding: 5px 0px 5px 70px; display:block; text-align:left; font-size: 13px; position: relative; color: #333;}
-.sidebar .links_area ul > li ul li a:before{ content: ""; position: absolute; top: 0px; left: 35px; display: block;  height: 100%; width: 2px; background: #ddd;}
+.sidebar .links_area ul > li ul li a:before{ content: ""; position: absolute; top: 0px; left: 35px; display: block;  height: 100%; width: 2px; background: #ddd; transform:none; border:0px;}
 .sidebar .links_area ul > li ul li:hover a:before,
 .sidebar .links_area ul > li ul li.active a:before { background:#333; }
 
@@ -371,6 +371,61 @@ body.headerfix header { position: fixed; top: 0px; left: 0px; z-index: 99; }
 /*===loader===*/
 .loader_cont { position: absolute; top: 50%; left: 50%; display: inline-block; transform: translate(-50%, -50%); }
 /*=end loader=*/
+
+
+/*===login_wrap===*/
+.login_wrap {
+    width: 100%;
+    height: 100vh;
+    overflow-y: auto;
+    position: relative;
+    padding: 10px 0px 10px;
+    text-align: center;
+    background: linear-gradient(to bottom right, #fff 0%, #fff 50%, #d85579 50%, #d85579 100%);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.login_cont {
+    width: 600px;
+    margin: 0 auto;
+    padding: 45px 30px;
+    background: #fff;
+    box-shadow: 0px 0px 41px -14px #fff;
+    -moz-box-shadow: 0px 0px 41px -14px #000;
+    -webkit-box-shadow: 0px 0px 41px -14px #000;
+}
+.login_cont .s_middle {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.login_cont .s_middle .b_l { 
+    flex: 0 0 300px;
+    -moz-flex: 0 0 300px;
+    -webkit-flex: 0 0 300px;
+    -ms-flex: 0 0 300px;
+    max-width: 300px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+ }
+.login_cont .s_middle .b_r {
+    flex: 0 0 223px;
+    -moz-flex: 0 0 223px;
+    -webkit-flex: 0 0 223px;
+    -ms-flex: 0 0 223px;
+    max-width: 223px;
+ }
+ .login_cont form { width: 100%; }
+ .login_cont form .inputbox { width: 100%; position: relative; margin-bottom: 15px; }
+ .login_cont form .inputbox span.icn { display: inline-block; color:#000; position: absolute; top: 0px; left: 0px; width: 50px; height: 50px; line-height: 50px; }
+ .login_cont form .inputbox span.eye { display: inline-block; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); -moz-transform: translateY(-50%); -webkit-transform: translateY(-50%); }
+ .login_cont form .inputbox input { width: 100%; height: 50px; position: relative; padding: 13px 20px 13px 50px; border-bottom: 1px solid #ddd; background:transparent; }
+ .login_cont form .buttons { width: 100%; }
+ .login_cont form .buttons button { margin: 0px 3px 5px; }
+/*=end login wrap=*/
 
 
 /*===modal css===*/
